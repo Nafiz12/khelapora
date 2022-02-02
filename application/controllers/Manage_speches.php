@@ -144,10 +144,10 @@ class Manage_speches extends CI_Controller
          $this->layout->view('Admins/permission',$data);
     }
 
-    public function delete($id, $name)
+    public function delete($id)
     {
 
-        if ($this->Manage_spech->delete($id, $name) != 0) {
+        if ($this->Manage_spech->delete($id) != 0) {
             $this->session->set_flashdata('success_message', DELETE_MESSAGE);
         } else {
             $this->session->set_flashdata('error_message', WARNING_MESSAGE);

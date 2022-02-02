@@ -137,13 +137,16 @@ class Organization_configurations extends CI_Controller
 
     private function do_upload()
     {
+        
         $type=explode('.',$_FILES['image']['name']);
         $type=$type[count($type)-1];
         $url="lib/images/".uniqid(rand()).'.'.$type;
+        
         if(in_array($type,array('jpg','JPG','JPEG','jpeg','png','PNG','bmp','BMP','pdf','gif','GIF')))
         {
             if(move_uploaded_file($_FILES['image']['tmp_name'],$url))
             {
+
                 return $url;
             }
 

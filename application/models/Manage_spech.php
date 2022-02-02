@@ -34,16 +34,26 @@ class Manage_spech extends CI_Model
        return $this->db->update('manage_spech', $spech_data, array('id' => $spech_id));
    }
 
-    public function delete($id,$name){
-        if( is_readable("lib/images/".$name) && unlink("lib/images/".$name))
+    public function delete($id){
+        $name= $this->get_image_path($id);
+      
+        if( is_readable($name[0]->image) && unlink($name[0]->image))
         {
             return $this->db->delete('manage_spech', array('id' => $id));
         }else{
             return null;
         }
 
+       
+
     }
 
+
+
+ public function get_image_path($id){
+            $query = $this->db->query("SELECT image FROM manage_spech WHERE id = $id")->result();
+            return $query;
+          }
 
 
 
