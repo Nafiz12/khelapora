@@ -353,7 +353,7 @@
               <div class="col-md-4 info-blocks text-center" id = "gallery" style = "max-height:350px;">
                 <div class="panel-heading box-title white-bg" style="width: 109%;
 
-                margin-left: -15px;background-color:#25708b;color:white; padding: 8px 10px 9px 15px;">রিপোর্ট এবং ঘটনা</div>
+                margin-left: -15px;background-color:#25708b;color:white; padding: 8px 10px 9px 15px;">শাখা তথ্য</div>
                 <div class="row">
                     <div class="c2" style="background:#21750B; height:4px; margin-left:-14px;"></div>
 
