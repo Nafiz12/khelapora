@@ -522,7 +522,7 @@ if($action=="home" || $action=="home"){
                 <section id="content">
                     <div class="footer-social-icons row" style="width: auto; margin-top: 2%">
                         <div class="col-md-6" style="float: left; font-size: 11px; font-weight: normal">
-                            <h5 style="color:#000000; font-size: 11px; margin-top: 1%;font-weight: normal"><a target="_blank" style="color:#000000; margin-top: 2%;text-decoration: none" href=""> </a>Copyright © 2020. All right reserved by   <a target="_blank" style="color:#000000; margin-top: 1%;text-decoration: none" href="http://www.4sventure.com/"><strong>4sventure<strong></a></h5>
+                            <h5 style="color:#000000; font-size: 11px; margin-top: 1%;font-weight: normal"><a target="_blank" style="color:#000000; margin-top: 2%;text-decoration: none" href=""> </a>Copyright © 2020. All right reserved by   <a target="_blank" style="color:#000000; margin-top: 1%;text-decoration: none" href=""><strong>Md.Nafiz Al Ifat<strong></a></h5>
                         </div>
                         <div class="col-md-6" style="float: right; text-align: end">
                             <ul class="social-icons" style="margin: 0px;">

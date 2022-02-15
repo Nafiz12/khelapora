@@ -51,6 +51,9 @@
         .container{
             min-width:1300px;
         }
+
+
+
     </style>
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -59,10 +62,11 @@
 
 </head>
 <body style="overflow-x: hidden;">
-    
+
+
 </style>
 
-   <div class="row no-print" style = "background: #25708b;z-index: 999;">
+   <div class="row no-print" style="background: #25708b61;z-index: 999;">
 <!--       <marquee onmouseover="this.stop();" style="margin-top:0%;" onmouseout="this.start();" direction="left" scrolldelay="4" scrollamount="2" behavior="scroll" id = "horizontal_marquee">-->
 <!--    <?php if(isset($notice_list)){foreach($notice_list as $notice){?>-->
 <!--        **<a class = "read-more" target="_blank" href="<?php echo base_url();?>index.php/Notice_boards/view/<?php echo $notice->description;?>" style = "border-radius:50px;color:white;"><?php echo $notice->title;?></a>** &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;-->
@@ -125,11 +129,11 @@ min-height: 71px; max-height: 71px;" src="<?php echo base_url();?><?php echo $co
                                     </a>
                                 </li>
 
-                                <li style = "width:100%;">
+                             <!--   <li style = "width:100%;">
                                     <a href="<?php echo base_url();?>software/">
                                         Software login
                                     </a>
-                                </li>
+                                </li> -->
                                 
                                
 
@@ -239,7 +243,7 @@ line-height: 24px;-webkit-box-shadow: 0px 5px 25px 0px rgba(240, 90, 33, 0.35);
                         </ul>
                     </li> -->
 
-                    <li><a style = "padding-top:5px;" href="<?php echo base_url();?>index.php/Welcomes">প্রথম পাতা</a></li>
+                    <li><a style = "padding-top:5px;" href="<?php echo base_url();?>">প্রথম পাতা</a></li>
 
                     <li class="dropdown" >
 
@@ -253,7 +257,7 @@ line-height: 24px;-webkit-box-shadow: 0px 5px 25px 0px rgba(240, 90, 33, 0.35);
                     </li>
 
 
-                    <li class="dropdown">
+                   <!-- <li class="dropdown">
                         <a href="#" data-toggle="dropdown" class="dropdown-toggle">আমাদের কোর্স সমূহ  <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li style = "width:100%;"><a href="<?php echo base_url();?>index.php/Welcomes/get_course_details/2">বিসিএস প্রিলিমিনারি</a></li>
@@ -264,6 +268,7 @@ line-height: 24px;-webkit-box-shadow: 0px 5px 25px 0px rgba(240, 90, 33, 0.35);
 
                         </ul>
                     </li>
+                      -->
                    <!--  <li class="dropdown">
                         <a href="#" data-toggle="dropdown" class="dropdown-toggle">সু্যোগ - সুবিধা <b class="caret"></b></a>
                         <ul class="dropdown-menu">
@@ -277,7 +282,7 @@ line-height: 24px;-webkit-box-shadow: 0px 5px 25px 0px rgba(240, 90, 33, 0.35);
                      <li class="dropdown">
                         <a href="#" data-toggle="dropdown" class="dropdown-toggle">প্রাতিষ্ঠানিক <b class="caret"></b></a>
                         <ul class="dropdown-menu">
-                            <li style = "width:100%;"><a href="<?php echo base_url();?>index.php/Welcomes/show_lecture_details_view">লেকচার'স</a></li>
+                           <!-- <li style = "width:100%;"><a href="<?php echo base_url();?>index.php/Welcomes/show_lecture_details_view">লেকচার</a></li> -->
                             <li style = "width:100%;"><a href="<?php echo base_url();?>index.php/Welcomes/show_achievement_details_view">সাফল্য ও অর্জন</a></li>
                             <li style = "width:100%;"><a href="<?php echo base_url();?>index.php/Welcomes/show_news_events_details_view">রিপোর্ট এবং ঘটনা</a></li>
                               <li style = "width:100%;"><a href="<?php echo base_url();?>index.php/Welcomes/notice_board_list">বিজ্ঞপ্তি</a></li>
@@ -338,4 +343,5 @@ line-height: 24px;-webkit-box-shadow: 0px 5px 25px 0px rgba(240, 90, 33, 0.35);
         </div>
     </header>
     <!-- end header -->
+
 

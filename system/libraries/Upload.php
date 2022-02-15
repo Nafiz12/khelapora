@@ -53,7 +53,7 @@ class CI_Upload {
 	 *
 	 * @var	int
 	 */
-	public $max_size = 0;
+	public $max_size = 100;
 
 	/**
 	 * Maximum image width
@@ -373,6 +373,8 @@ class CI_Upload {
 	 */
 	public function do_upload($field = 'userfile')
 	{
+//        echo"<pre>";print_r($_FILES);die;
+
 		// Is $_FILES[$field] set? If not, no reason to continue.
 		if (isset($_FILES[$field]))
 		{
@@ -411,6 +413,8 @@ class CI_Upload {
 		// Was the file able to be uploaded? If not, determine the reason why.
 		if ( ! is_uploaded_file($_file['tmp_name']))
 		{
+
+
 			$error = isset($_file['error']) ? $_file['error'] : 4;
 
 			switch ($error)
@@ -497,19 +501,19 @@ class CI_Upload {
 		}
 
 		// Is the file size within the allowed maximum?
-		if ( ! $this->is_allowed_filesize())
-		{
-			$this->set_error('upload_invalid_filesize', 'info');
-			return FALSE;
-		}
+//		if ( ! $this->is_allowed_filesize())
+//		{
+//			$this->set_error('upload_invalid_filesize', 'info');
+//			return FALSE;
+//		}
 
 		// Are the image dimensions within the allowed size?
 		// Note: This can fail if the server has an open_basedir restriction.
-		if ( ! $this->is_allowed_dimensions())
-		{
-			$this->set_error('upload_invalid_dimensions', 'info');
-			return FALSE;
-		}
+//		if ( ! $this->is_allowed_dimensions())
+//		{
+//			$this->set_error('upload_invalid_dimensions', 'info');
+//			return FALSE;
+//		}
 
 		// Sanitize the file name for security
 		$this->file_name = $this->_CI->security->sanitize_filename($this->file_name);

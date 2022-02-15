@@ -65,7 +65,7 @@
                 <div class="col-lg-6">
                     <div class="copyright">
                         <p>
-                            <span>&copy;  All right reserved by <Strong>4sventure</Strong> </span><a href="" target="_blank"></a>
+                            <span>&copy;  All right reserved by <Strong>Md.Nafiz Al Ifat</Strong> </span><a href="" target="_blank"></a>
                         </p>
                     </div>
                 </div>

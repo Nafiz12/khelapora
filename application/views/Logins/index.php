@@ -1,8 +1,16 @@
+<style>
+    body {
+        background-image:url("../lib/images/backgroupImage.png");
+        background-size:500px ;
+        background-repeat: repeat;
+        background-color: #cccccc;
+    }
+</style>
+
 <?php $this->load->view('Layouts/admin_login_page_header'); ?>
 
 
-    <div class="login-box" style = "padding-top: 10%;
-background-repeat: no-repeat;margin:0% auto;">
+    <div class="login-box">
 
         <?php
         if ($this->session->flashdata('error_message')) {

@@ -2,7 +2,7 @@
     <div class="pull-right hidden-xs">
         <b>Version</b> 1.0.0
     </div>
-    <strong>Copyright &copy; 2020-2021 <a href="#">4sventure</a>.</strong> All rights
+    <strong>Copyright &copy; 2020-2021 <a href="#">Md.Nafiz Al Ifat</a>.</strong> All rights
     reserved.
 </footer>
 

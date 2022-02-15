@@ -1,4 +1,15 @@
+
+
 <?php $this->load->view('Layouts/header');?>
+<style>
+    body {
+        background-image:url("../../lib/images/backgroupImage.png");
+        background-size:500px ;
+        background-repeat: repeat;
+        background-color: #cccccc;
+    }
+</style>
+
 <style>
 #paging {
     background-color: whitesmoke  ;

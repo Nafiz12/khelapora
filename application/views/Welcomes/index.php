@@ -22,10 +22,18 @@
     .pull-left ~ p{
       text-align: justify;
       padding-left: 2%;
+
+
+    }
+
+    body {
+        background-image:url("lib/images/backgroupImage.png");
+        background-size:500px ;
+        background-repeat: repeat;
+        background-color: #cccccc;
     }
 </style>
 <section id="banner "  >
-
     <!-- Slider -->
     <div class="row">
       <div class="col-md-8" style="margin-top:1%">
@@ -380,7 +388,5 @@
 
     </section>
 
-
-
-
     <?php $this->load->view('Layouts/footer');?>
+

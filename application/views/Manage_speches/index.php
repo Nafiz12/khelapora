@@ -1,5 +1,12 @@
 
-
+<style>
+    body {
+        background-image:url("../../lib/images/backgroupImage.png");
+        background-size:500px ;
+        background-repeat: repeat;
+        background-color: #cccccc;
+    }
+</style>
                         <!-- /.box-header -->
                         <div class="box-body">
 

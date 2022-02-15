@@ -230,7 +230,7 @@
                                     <li><a href="" class="social-icon"> <i class="fa fa-linkedin"></i></a></li>
                                 </ul>
                                 <h5  style="color:#ffffff; margin-top: 2%; margin-bottom:0%;font-size: 11px; font-weight: normal "><a target="_blank" style="color:#ffffff; margin-top: 2%;text-decoration: none" href="">School Management ERP</a></h5>
-                                <h5  style="color:#ffffff; margin-top: 2%; margin-bottom:0%;font-size: 11px; font-weight: normal ">Copyright © 2020 <a target="_blank" style="color:#ffffff; margin-top: 1%;text-decoration: none" href="http://www.4sventure.com/"> <Strong>4sventure</Strong></a></h5>
+                                <h5  style="color:#ffffff; margin-top: 2%; margin-bottom:0%;font-size: 11px; font-weight: normal ">Copyright © 2020 <a target="_blank" style="color:#ffffff; margin-top: 1%;text-decoration: none" href=""> <Strong>Md.Nafiz Al Ifat</Strong></a></h5>
                             </div>
                         </div>
                         <!-- end .form-footer section -->

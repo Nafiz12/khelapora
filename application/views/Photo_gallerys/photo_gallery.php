@@ -1,10 +1,19 @@
+
+<style>
+    body {
+        background-image:url("../../lib/images/backgroupImage.png");
+        background-size:500px ;
+        background-repeat: repeat;
+        background-color: #cccccc;
+    }
+</style>
+
 <?php $this->load->view('Layouts/header');?>
 
     <section id="content">
 
 
         <div class="container">
-
 
             <div class="row" style = "text-align: justify;">
                 <div class="col-md-8 info-blocks text-center"  style = "min-height:698px;">
