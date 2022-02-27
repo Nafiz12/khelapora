@@ -15,7 +15,7 @@
     <meta charset="utf-8">
     <title><?php if(isset($config_list)){foreach($config_list as $config){ echo $config->title;}}?> </title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="poricroma the best coaching center for bcs, bank job in Bangladesh" />
+    <meta name="description" content="" />
     <meta name="author" content="" />
     <!-- css -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-fileinput/4.4.5/css/fileinput.min.css" media="all" rel="stylesheet" type="text/css" />
@@ -32,7 +32,7 @@
     <link href="<?php echo base_url();?>lib/css/style.css" rel="stylesheet" />
     <link href="<?php echo base_url();?>lib/css/image_gallery_plugin/style.css" type="text/css" rel="stylesheet" />
     <!-- <link href="<?php echo base_url();?>lib/css/jquery-gallery.css" type="text/css" rel="stylesheet" /> -->
- <link rel="shortcut icon" href="<?php echo base_url();?>lib/images/favicons.png">
+<!-- <link rel="shortcut icon" href="--><?php //echo base_url();?><!--lib/images/favicons.png">-->
 
     <style>
         .demo { margin: 30px auto; max-width:960px;}

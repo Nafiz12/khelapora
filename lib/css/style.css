@@ -565,10 +565,13 @@ section.hero-text h1{
 
 #content {
 	position:relative;
-	background:#EFEFEF;
+	background:#EFEFEF73;
 	padding:50px 0 0px 0;
 }
- 
+
+
+
+
 .cta-text {
 	text-align: center;
 	margin-top:10px;

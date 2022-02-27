@@ -524,3 +524,19 @@ $config['rewrite_short_tags'] = FALSE;
 | Array:		array('10.0.1.200', '192.168.5.0/24')
 */
 $config['proxy_ips'] = '';
+
+
+define('DEBUG', FALSE);
+
+if(DEBUG)
+{
+    ini_set('display_errors', 'On');
+    error_reporting(E_ALL);
+    define('PROFILER', TRUE);
+    //define('MP_DB_DEBUG', true);
+}else
+{
+    define('PROFILER', FALSE);
+    ini_set('display_errors', 'Off');
+    error_reporting(0);
+}
